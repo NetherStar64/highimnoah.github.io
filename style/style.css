@@ -35,7 +35,7 @@ a {
 a:hover,
 .link-img:hover,
 .link-text:hover {
-    filter: drop-shadow(0 0 5px rgba(201, 63, 63, 0.521));
+    filter: drop-shadow(0 0 10px rgba(134, 63, 201, 0.521));
 }
 
 hr {
