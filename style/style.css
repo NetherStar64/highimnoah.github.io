@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    background-color: #252525;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+p,
+span {
+    color: white;
+    text-shadow: 0 0 2px white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+    transition: filter 0.5s ease-in-out;
+}
+
+a:hover,
+.link-img:hover,
+.link-text:hover {
+    filter: drop-shadow(0 0 5px rgba(201, 63, 63, 0.521));
+}
+
+hr {
+    color: white;
+    width: 15%;
+    margin-bottom: 25px;
+    height: 2px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.link-container {
+    background-color: #363636;
+    width: 50vh;
+    border-radius: 30px;
+    box-shadow: 0 0 6px #666666;
+}
+
+.link {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link-img {
+    cursor: pointer;
+    width: 64px;
+    height: auto;
+    transition: filter 0.5s ease-in-out;
+}
+
+.link-text {
+    position: relative;
+    top: -24px;
+    font-size: 24px;
+    transition: filter 0.5s ease-in-out;
+}
+
+.divider {
+    cursor: default;
+    position: relative;
+    top: -28px;
+    width: 2px;
+    height: 64px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 0 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-container {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
